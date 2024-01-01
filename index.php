@@ -3,6 +3,7 @@
     include './Lib/functions.php';
     getPart('menu');
 ?>
+
 <link rel="stylesheet" href="./Congo-B-Exchange.css">
 <style type="text/css">
     h1 {
@@ -32,14 +33,17 @@
                 <span id="horloge"></span>
             </div>   
         </div>
+
         <div id="Lykos">
             <form action="" method="post">
                 <label for="recherche" hidden></label>
                 <input class="Lykos" type="text" name="recherche" id="WatchBar" required name="recerche" placeholder="Recherche">
                 <input class="LykSub" type="submit" value="Rechercher">
             </form>
-        </div>   
-        <h1>CONGO-B-EXCHANGE</h1>  
+        </div>
+
+        <h1>CONGO-B-EXCHANGE</h1>
+
         <div class="Artbeurre3">
             <span class="Slog">Be Beauty By Nature</span>
             <div class="contenu_carou_auto">
@@ -56,6 +60,7 @@
             </div>
         </div>
     </div>
+
 <?php
     include './template_calling/footer.php';
 ?>
