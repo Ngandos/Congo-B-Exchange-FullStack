@@ -35,9 +35,13 @@
         </div>
 
         <div id="Lykos">
-            <form action="" method="post">
-                <label for="recherche" hidden></label>
-                <input class="Lykos" type="text" name="recherche" id="WatchBar" required name="recerche" placeholder="Recherche">
+            <form id="LykoForm" action="" method="post">
+                <div id="FormFields">
+                    <label for="recherche" id="WatchBarLab" hidden>
+                        <p>Rechercher sur Congo-B</p>
+                    </label>
+                    <input class="Lykos" type="text" name="recherche" id="WatchBar" required name="recerche" placeholder="Recherche">
+                </div> 
                 <input class="LykSub" type="submit" value="Rechercher">
             </form>
         </div>
